@@ -696,10 +696,10 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|df42c8c69f67adeecd682a3035bf8d2b5834cd25
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|5a794cd2180fc27d7a03d990e852f6600daf4b7f
 
-# Widevine DRM - from daisy 9/PKQ1.180917.001/V10.0.7.0.PDLMIXM
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine|9743c4ecd0fb8773795bcbfbb406f25616c04129
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|458dd241f5f8536eccb57f012b3eba0061736e8e
-vendor/lib64/libwvhidl.so|2ddd2b76f1f16fd1a885fd6ee41c970928f25c3e
+# DRM Widevine - from LA.UM.8.6.r1-02600-89xx.0
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
+vendor/lib64/libwvhidl.so
 
 # WiFi firmware
 etc/firmware/bdwlan30.bin:vendor/firmware/bdwlan30.bin
