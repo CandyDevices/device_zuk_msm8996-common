@@ -454,11 +454,8 @@ lib64/lib-imsvt.so
 lib64/lib-imsvtextutils.so
 lib64/lib-imsvtutils.so
 lib64/libdiag_system.so
-lib64/libimscamera_jni.so
-lib64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
--priv-app/ims/ims.apk|426be1b83d6f608107d6dcf587080551abeab3e2
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -614,6 +611,11 @@ vendor/lib/libsmemlog.so
 # QMI - from LA.UM.8.6.r1-01900-89xx.0
 vendor/lib/libqmi_cci.so|5a48201e565516a2fdff11c228162d2eda733fe5
 vendor/lib64/libqmi_cci.so|d5c4f4ad1a484fd00066b8f054877fc7dae77f8b
+
+# Radio - IMS - from LA.UM.8.6.r1-01900-89xx.0
+product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
+product/lib64/libimsmedia_jni.so|e50217e9eb8878136614db66313508ac970a2b42
+-product/priv-app/ims/ims.apk|ce41daca328db67984843588e8bafa7e0eb53a0a
 
 # RIL
 -app/QtiTelephonyService/QtiTelephonyService.apk
