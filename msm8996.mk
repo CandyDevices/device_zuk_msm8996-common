@@ -427,6 +427,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# wfd shim
+PRODUCT_PACKAGES += \
+    libshim_wfd
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.zuk_msm8996 \
